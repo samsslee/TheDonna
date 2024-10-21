@@ -29,6 +29,9 @@ VITE_MEASUREMENT_ID=123your-key
 OPENAI_API_KEY=123your-key
 `
 
+Put the .env file in the root folder in the same level as src, static, .gitignore.. etc.
+
+
 ### List of implemented features and technologies used
 1. SvelteKit (As required)
     - I used the index page to setup the UI
@@ -51,9 +54,9 @@ OPENAI_API_KEY=123your-key
 
 ### Any future enhancements you would add if given more time
 So, so many! I'll note the bigger ones:
--**Security & Authentication:** My firestore is demo mode for quick setup, don't go telling the world, anyway, I would have loved to give each user their own data space, so that you could tell Donna things separately from me telling Donna my things. Users would log-in/authenticate and be able to pull their own data and get customized advice about their life.
--**Input Sanitization:** I did not limit the character count, or query content (please be nice to Donna), nor disallow escape characters or things that might potentially harm my code. Would absolutely need to do this.
--**Error Handling** I was not super consistent with error handling. If things fail I did not make a pretty way to notify the user. Would absolutely also have to add this functionality.
--**Different kind of input data:** I'd love to be able to upload pics or music from my life too.
--**Making that Google Calendar Integration:** This more or less goes hand-in-hand with authentication. You'd be able to connect your Google Calendar, and Donna would schedule the event for you.
--**Cloud Functions, obviously!** I would like to have more time to figure out how to setup the native Vector Indexing that Cloud Functions offers.
+- **Security & Authentication:** My firestore is demo mode for quick setup, don't go telling the world, anyway, I would have loved to give each user their own data space, so that you could tell Donna things separately from me telling Donna my things. Users would log-in/authenticate and be able to pull their own data and get customized advice about their life.
+- **Input Sanitization:** I did not limit the character count, or query content (please be nice to Donna), nor disallow escape characters or things that might potentially harm my code. Would absolutely need to do this.
+- **Error Handling** I was not super consistent with error handling. If things fail I did not make a pretty way to notify the user. Would absolutely also have to add this functionality.
+- **Different kind of input data:** I'd love to be able to upload pics or music from my life too.
+- **Making that Google Calendar Integration:** This more or less goes hand-in-hand with authentication. You'd be able to connect your Google Calendar, and Donna would schedule the event for you.
+- **Cloud Functions, obviously!** I would like to have more time to figure out how to setup the native Vector Indexing that Cloud Functions offers.
