@@ -16,18 +16,7 @@ Later on, say you want to get some advice from Donna, you use the "Ask Donna" bo
 
 ### Instructions for running the application locally
 
-Pretty simple setup: clone the GH repo, `npm i`, then `npm run dev`. Email me and ask me for my `.env` file if you want to run it and use my Database and OpenAI. Otherwise, if you want to use your own, make a new Firebase project and grab an API key from your own OpenAI account and setup an `.env` file with the following variables:
-
-`
-VITE_API_KEY=123your-key
-VITE_AUTH_DOMAIN=123your-key
-VITE_PROJECT_ID=123your-key
-VITE_STORAGE_BUCKET=123your-key
-VITE_MESSAGING_SENDER_ID=123your-key
-VITE_APP_ID=123your-key
-VITE_MEASUREMENT_ID=123your-key
-OPENAI_API_KEY=123your-key
-`
+Pretty simple setup: clone the GH repo, `npm i`, then `npm run dev`. Email me and ask me for my `.env` file if you want to run it and use my Database and OpenAI. Otherwise, if you want to use your own accounts, make a new Firebase project, grab the FirebaseSDK keys and grab an API key from your own OpenAI account. Setup an `.env` file as how the .env.example shows. 
 
 Put the .env file in the root folder in the same level as src, static, .gitignore.. etc.
 
